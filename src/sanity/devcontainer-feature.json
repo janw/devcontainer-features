@@ -1,0 +1,15 @@
+{
+    "id": "sanity",
+    "version": "0.1.0",
+    "name": "Sanity",
+    "documentationURL": "https://github.com/janw/devcontainer-/tree/main/src/common-utils",
+    "description": "Installs a proper set of common command line utilities for, you know, keeping your sanity.",
+    "dependsOn": {
+        "ghcr.io/devcontainers/features/common-utils:2": {
+            "installOhMyZsh": false,
+            "installOhMyZshConfig": false,
+            "nonFreePackages": true
+        }
+    },
+    "options": {}
+}
